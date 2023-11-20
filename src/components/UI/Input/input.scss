@@ -1,0 +1,10 @@
+.input-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    width: 100%;
+    border-radius: 50px;
+  }
+}
