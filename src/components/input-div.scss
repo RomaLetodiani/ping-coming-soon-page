@@ -1,0 +1,12 @@
+.input-div {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+header {
+  @include mobile {
+    width: 100%;
+  }
+  img {
+    margin-bottom: 50px;
+  }
+  .texts-div {
+    padding: 0 75px;
+    @include mobile {
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 50px;
+      @include mobile {
+        font-size: 30px;
+      }
+      span {
+        font-weight: 300;
+        color: $gray-color;
+      }
+    }
+    h3 {
+      font-weight: 300;
+      margin-top: 20px;
+      font-size: $large;
+    }
+  }
+}

@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <header>
       <img src={logo} alt="PING." />
-      <div>
+      <div className="texts-div">
         <h1>
-          We are launching <span>soon!</span>
+          <span>We are launching</span> soon!
         </h1>
         <h3>Subscribe and get notified</h3>
       </div>

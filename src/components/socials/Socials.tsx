@@ -1,7 +1,7 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import './socials.scss';
 const Socials = () => (
-  <div>
+  <div className="socials">
     <a href="https://www.facebook.com/LetodianiRoma">
       <FaFacebookF />
     </a>

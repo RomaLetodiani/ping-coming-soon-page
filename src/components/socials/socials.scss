@@ -1,0 +1,21 @@
+.socials {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid $primary-color;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: $primary-color;
+      color: #fff;
+    }
+  }
+}

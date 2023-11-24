@@ -1,0 +1,20 @@
+button {
+  background-color: $primary-color;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 320px;
+  box-shadow: 0 10px 40px -5px $secondary-color;
+  &:hover {
+    background-color: $secondary-color;
+  }
+  @include mobile {
+    width: 100%;
+  }
+}
